@@ -86,7 +86,7 @@ const ProjectsSection = () => {
           </h2>
           <div className="w-16 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Transformative initiatives across fintech, sustainability, and civic tech
+            From idea to implementation: Signature projects demonstrating product leadership, operational clarity, and measurable value
           </p>
         </div>
 
