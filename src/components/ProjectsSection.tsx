@@ -1,7 +1,9 @@
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Bot, Recycle, BarChart3, Shield, TrendingUp, Building, Truck, Users, ShoppingBag, Lightbulb, GraduationCap, Rocket } from "lucide-react";
+import { useState } from "react";
 
 const ProjectsSection = () => {
+  const [activeTab, setActiveTab] = useState<'product' | 'sustainability' | 'innovation'>('product');
   const productProjects = [
     {
       icon: <Bot className="w-8 h-8 text-primary" />,
@@ -107,6 +109,12 @@ const ProjectsSection = () => {
     }
   ];
 
+  const tabs = [
+    { id: 'product', label: 'Product & Platform Development', projects: productProjects },
+    { id: 'sustainability', label: 'Sustainability & Government Advisory', projects: sustainabilityProjects },
+    { id: 'innovation', label: 'Innovation Programs & Ecosystem Building', projects: innovationProjects }
+  ] as const;
+
   const renderProjectGrid = (projects: typeof productProjects) => (
     <div className="grid lg:grid-cols-2 gap-8">
       {projects.map((project, index) => (
@@ -159,28 +167,26 @@ const ProjectsSection = () => {
           </p>
         </div>
 
-        {/* Product & Platform Development */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-primary mb-8 text-center">
-            Product & Platform Development
-          </h3>
-          {renderProjectGrid(productProjects)}
+        {/* Tab Navigation */}
+        <div className="flex flex-wrap justify-center gap-4 mb-12">
+          {tabs.map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`px-6 py-3 rounded-lg font-medium transition-all ${
+                activeTab === tab.id
+                  ? 'bg-primary text-primary-foreground shadow-md'
+                  : 'bg-surface border border-border text-foreground hover:bg-muted hover:border-accent/30'
+              }`}
+            >
+              {tab.label}
+            </button>
+          ))}
         </div>
 
-        {/* Sustainability & Government Advisory */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-primary mb-8 text-center">
-            Sustainability & Government Advisory
-          </h3>
-          {renderProjectGrid(sustainabilityProjects)}
-        </div>
-
-        {/* Innovation Programs & Ecosystem Building */}
-        <div>
-          <h3 className="text-2xl font-bold text-primary mb-8 text-center">
-            Innovation Programs & Ecosystem Building
-          </h3>
-          {renderProjectGrid(innovationProjects)}
+        {/* Active Tab Content */}
+        <div className="min-h-[400px]">
+          {renderProjectGrid(tabs.find(tab => tab.id === activeTab)?.projects || [])}
         </div>
       </div>
     </section>
