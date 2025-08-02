@@ -31,7 +31,7 @@ const SkillsSection = () => {
       title: "Sustainability & Impact",
       skills: [
         "ESG Strategy & Reporting",
-        "Circular Economy Models",
+        "Circular Economy Program Design & Implementation",
         "Decarbonization Programs",
         "Green Job Creation",
         "Carbon & Plastic Credit Models",
