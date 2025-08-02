@@ -11,7 +11,7 @@ const ContactSection = () => {
   };
 
   const handleLinkedInClick = () => {
-    window.open("https://linkedin.com/in/anitaogbonna", "_blank");
+    window.open("https://www.linkedin.com/in/anitaodiete/", "_blank");
   };
 
   return (

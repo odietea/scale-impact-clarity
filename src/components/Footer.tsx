@@ -13,7 +13,7 @@ const Footer = () => {
             <a href="https://calendly.com/anitaogbonna" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
               Calendly
             </a>
-            <a href="https://linkedin.com/in/anitaogbonna" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+            <a href="https://www.linkedin.com/in/anitaodiete/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
               LinkedIn
             </a>
           </div>
