@@ -10,7 +10,7 @@ const Footer = () => {
             <a href="mailto:odieteanita@gmail.com" className="hover:text-accent transition-colors">
               Email
             </a>
-            <a href="https://calendly.com/anitaogbonna" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
+            <a href="https://calendly.com/odieteanita/30min" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
               Calendly
             </a>
             <a href="https://www.linkedin.com/in/anitaodiete/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">

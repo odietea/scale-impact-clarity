@@ -7,7 +7,7 @@ const ContactSection = () => {
   };
 
   const handleCalendlyClick = () => {
-    window.open("https://calendly.com/anitaogbonna", "_blank");
+    window.open("https://calendly.com/odieteanita/30min", "_blank");
   };
 
   const handleLinkedInClick = () => {

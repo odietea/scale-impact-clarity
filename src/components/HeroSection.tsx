@@ -6,7 +6,7 @@ const HeroSection = () => {
     window.location.href = "mailto:odieteanita@gmail.com";
   };
   const handleCalendlyClick = () => {
-    window.open("https://calendly.com/anitaogbonna", "_blank");
+    window.open("https://calendly.com/odieteanita/30min", "_blank");
   };
   return <section id="hero" className="min-h-screen flex items-center justify-center bg-background pt-16">
       <div className="container mx-auto px-6 py-20">
