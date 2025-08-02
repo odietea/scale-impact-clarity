@@ -47,7 +47,7 @@ const HeroSection = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-accent/20 shadow-2xl">
-                <img src={professionalHeadshot} alt="Anita Ogbonna - Professional Headshot" className="w-full h-full object-contain" />
+                <img src={professionalHeadshot} alt="Anita Ogbonna - Professional Headshot" className="w-full h-full object-cover" />
               </div>
               {/* Decorative elements */}
               <div className="absolute -top-4 -right-4 w-16 h-16 bg-accent/10 rounded-full animate-pulse"></div>
