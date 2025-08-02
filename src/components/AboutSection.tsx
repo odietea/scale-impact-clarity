@@ -1,6 +1,5 @@
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-20 bg-surface-alt">
+  return <section id="about" className="py-20 bg-surface-alt">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -11,9 +10,10 @@ const AboutSection = () => {
           </div>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-lg leading-relaxed text-foreground mb-8">
-              I'm a multidisciplinary leader with 10+ years of experience scaling high-impact initiatives across fintech, sustainability, and innovation. I build systems that work — from self-service automation to multi-state ESG programs. Whether I'm deploying a chatbot that handles 35% of support tickets or creating circular economy models that empower 10,000+ people, I lead with clarity, empathy, and data.
-            </p>
+            <p className="text-lg leading-relaxed text-foreground mb-8">Tired of complex problems with no clear solutions? I design and build systems that deliver real, measurable impact.
+
+
+With over a decade of experience in Fintech, Civic Tech, Food Tech, and Sustainability, I thrive in the "messy middle"—where challenges are complex and expectations are high. I specialize in turning ambiguity into actionable strategies, leading CX transformations, automating workflows, and building products that empower thousands.</p>
 
             <div className="bg-surface rounded-lg p-8 border border-border shadow-sm">
               <h3 className="text-xl font-semibold text-primary mb-6">Why Work With Me</h3>
@@ -34,8 +34,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
