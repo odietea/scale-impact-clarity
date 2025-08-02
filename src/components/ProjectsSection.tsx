@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Bot, Recycle, BarChart3, Shield, TrendingUp } from "lucide-react";
+import { ExternalLink, Bot, Recycle, BarChart3, Shield, TrendingUp, Building, Truck, Users, ShoppingBag } from "lucide-react";
 
 const ProjectsSection = () => {
   const projects = [
@@ -7,12 +7,44 @@ const ProjectsSection = () => {
       icon: <Bot className="w-8 h-8 text-primary" />,
       title: "AI-Powered Support Bot",
       company: "Flutterwave",
-      description: "Automated 35% of all support tickets with a custom Intercom chatbot. Designed data-backed resolution flows, built API integrations, and created logic-based conversations for remittance users. Reduced SLA breaches by 60% and enabled team restructuring.",
-      impact: "35% automation, 60% SLA improvement",
+      description: "Built and deployed a robust conversational AI bot on Intercom that automated over 150 internal workflows across verification, transaction, and account-related issues. The bot resolved 35% of support requests end-to-end, reducing first response time by 60%.",
+      impact: "35% automation, 60% faster response",
       tags: ["AI/ML", "Process Automation", "Customer Experience"]
     },
     {
-      icon: <Recycle className="w-8 h-8 text-secondary" />,
+      icon: <Building className="w-8 h-8 text-secondary" />,
+      title: "Circular Economy Blueprint",
+      company: "Edo State Government",
+      description: "Designed a scalable Recycling Village model for Edo State, integrating waste-to-energy, green manufacturing, and ESG-aligned governance. Developed the full business case, PPP model, and investment roadmap for green jobs and carbon reduction.",
+      impact: "Full state circular economy model",
+      tags: ["Government", "ESG", "Strategic Planning"]
+    },
+    {
+      icon: <Truck className="w-8 h-8 text-accent" />,
+      title: "B2B Food Tech Platform",
+      company: "Frostflow",
+      description: "Led product development for a seafood e-commerce platform connecting hotels and restaurants to premium suppliers. Oversaw platform design, order management logic, payment flow, and automated reconciliation workflows that reduced manual errors by 80%.",
+      impact: "80% reduction in manual errors",
+      tags: ["B2B Platform", "Food Tech", "Supply Chain"]
+    },
+    {
+      icon: <Users className="w-8 h-8 text-primary" />,
+      title: "Lagos Waste Bazaar",
+      company: "Lagos State OCCCE",
+      description: "Planned and executed operations for Lagos State's first Waste Bazaar in Badagry. The event incentivized sustainable behavior by offering cash, food, and health services to over 500 residents in exchange for recyclables.",
+      impact: "500+ residents engaged",
+      tags: ["Civic Engagement", "Sustainability", "Event Operations"]
+    },
+    {
+      icon: <ShoppingBag className="w-8 h-8 text-secondary" />,
+      title: "Student Discount Platform",
+      company: "CampusDream",
+      description: "Built and launched a student-focused digital platform offering exclusive discounts across a verified network of 3,000+ partner merchants. Led product design, go-to-market strategy, and merchant acquisition operations.",
+      impact: "3,000+ merchant network",
+      tags: ["E-commerce", "Student Tech", "Marketplace"]
+    },
+    {
+      icon: <Recycle className="w-8 h-8 text-accent" />,
       title: "Circular Economy Engine",
       company: "Atunlo",
       description: "Led ESG programs across 6 states that recycled 200M+ plastic bottles and created 10,000+ green jobs. Built waste-to-value incentive systems, real-time performance dashboards, and secured partnerships with banks and government.",
@@ -20,7 +52,7 @@ const ProjectsSection = () => {
       tags: ["ESG", "Sustainability", "Program Management"]
     },
     {
-      icon: <BarChart3 className="w-8 h-8 text-accent" />,
+      icon: <BarChart3 className="w-8 h-8 text-primary" />,
       title: "Hernalytics",
       company: "Civic Tech",
       description: "Built a real-time election performance tracker to monitor participation, demographics, and winning party analytics for civic engagement.",
@@ -28,7 +60,7 @@ const ProjectsSection = () => {
       tags: ["Civic Tech", "Data Analytics", "Democracy"]
     },
     {
-      icon: <Shield className="w-8 h-8 text-primary" />,
+      icon: <Shield className="w-8 h-8 text-secondary" />,
       title: "Gateway Shield",
       company: "Civic Tech",
       description: "Developed a civic-tech platform for citizens to log crime incidents. Designed police-side dashboards and resolution workflows with SLA escalation and audit trail features.",
@@ -36,7 +68,7 @@ const ProjectsSection = () => {
       tags: ["Civic Tech", "Public Safety", "Transparency"]
     },
     {
-      icon: <TrendingUp className="w-8 h-8 text-secondary" />,
+      icon: <TrendingUp className="w-8 h-8 text-accent" />,
       title: "Omora",
       company: "Fintech",
       description: "Created an AI-powered investment platform for HNWIs. Integrated sentiment-based triggers, DCA-only investing, whale tracking, and a USDT/Naira wallet system.",
