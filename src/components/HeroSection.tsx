@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Calendar } from "lucide-react";
-import professionalHeadshot from "/lovable-uploads/38448bfa-906c-4a0a-80b3-2d4081e1f4c0.png";
+import professionalHeadshot from "/lovable-uploads/19d9ad75-3896-47c9-9efa-70611a88179e.png";
 const HeroSection = () => {
   const handleEmailClick = () => {
     window.location.href = "mailto:odieteanita@gmail.com";
