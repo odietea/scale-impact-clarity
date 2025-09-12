@@ -33,7 +33,7 @@ const ProjectsSection = () => {
       icon: <TrendingUp className="w-8 h-8 text-accent" />,
       title: "Omora",
       company: "Fintech",
-      description: "Created an AI-powered investment platform for HNWIs. Integrated sentiment-based triggers, DCA-only investing, whale tracking, and a USDT/Naira wallet system.",
+      description: "Led the end-to-end development of an AI-powered investment platform for HNWIs. Integrated sentiment-based triggers, DCA-only investing, whale tracking, and a USDT/Naira wallet system.",
       impact: "AI-driven investment automation",
       tags: ["Fintech", "AI/ML", "Investment Tech"]
     },
