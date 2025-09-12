@@ -49,7 +49,7 @@ const ProjectsSection = () => {
       icon: <Shield className="w-8 h-8 text-secondary" />,
       title: "Gateway Shield",
       company: "Civic Tech",
-      description: "Developed a civic-tech platform for citizens to log crime incidents. Designed police-side dashboards and resolution workflows with SLA escalation and audit trail features.",
+      description: "Led the development of a civic-tech platform for citizens to log crime incidents. Designed police-side dashboards and resolution workflows with SLA escalation and audit trail features.",
       impact: "Enhanced police accountability",
       tags: ["Civic Tech", "Public Safety", "Transparency"]
     }
