@@ -15,9 +15,6 @@ const AboutSection = () => {
             <div className="bg-surface rounded-lg p-8 border border-border shadow-sm">
               <h3 className="text-xl font-semibold text-primary mb-6">Why Work With Me</h3>
               <div className="space-y-6 text-foreground">
-                <p className="leading-relaxed">
-                  So, why choose me? It's simple: I don't just understand complex problems; I solve them, with a proven track record across diverse industries. Hire me if you need a partner who will:
-                </p>
                 
                 <div className="space-y-4">
                   <p className="leading-relaxed">
