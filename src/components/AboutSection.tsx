@@ -10,7 +10,7 @@ const AboutSection = () => {
           </div>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-lg leading-relaxed text-foreground mb-8">Tired of complex problems with no clear solutions? I design and build systems that deliver real, measurable impact. With over a decade of experience in Fintech, Civic Tech, Food Tech, Consumer Tech, Startup Ecosystem and Sustainability, I thrive in the "messy middle", where challenges are complex and expectations are high. I specialize in turning ambiguity into actionable strategies, leading CX transformations, automating workflows, and building products that empower thousands.</p>
+            <p className="text-lg leading-relaxed text-foreground mb-8">Tired of complex problems with no clear solutions? I design and build systems that deliver real, measurable impact. With over a decade of experience in Fintech, Civic Tech, Food Tech, Consumer Tech, Startup Ecosystem and Climate Tech, I thrive in the "messy middle", where challenges are complex and expectations are high. I specialize in turning ambiguity into actionable strategies, leading CX transformations, automating workflows, and building products that empower thousands.</p>
 
             <div className="bg-surface rounded-lg p-8 border border-border shadow-sm">
               <h3 className="text-xl font-semibold text-primary mb-6">Why Work With Me</h3>
