@@ -33,7 +33,7 @@ const ProjectsSection = () => {
       icon: <TrendingUp className="w-8 h-8 text-accent" />,
       title: "Omora",
       company: "Fintech",
-      description: "Spearheaded the full build of Omora—an AI-driven crypto investment platform for high-net-worth clients—designing sentiment-triggered automations, exclusive DCA flows, whale-tracking analytics, and integrated USDT/Naira wallets, while architecting robust admin dashboards for compliance, approvals, and investment oversight.",
+      description: "Spearheaded the full build of Omora, a simplified AI-powered crypto investment platform for high-net-worth clients, with sentiment-based automations, DCA investing, whale tracking, USDT/Naira wallets, and an intuitive admin dashboard for compliance and oversight.",
       impact: "AI-driven investment automation",
       tags: ["Fintech", "AI/ML", "Investment Tech"]
     },
