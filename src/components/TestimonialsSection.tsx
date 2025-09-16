@@ -40,6 +40,11 @@ const TestimonialsSection = () => {
       text: "Anita leads with purpose. Working under her showed me what strong, clear, strategic leadership looks like. She consistently inspired us to think bigger, move faster, and never lose sight of customer impact. Wherever Anita shows up, excellence follows.",
       author: "Ariyo A.",
       title: "Operations Associate, Flutterwave"
+    },
+    {
+      text: "Working with Anita on Gateway Shield was transformative. She brought structure and vision to a complex civic-tech platform, translating our big ideas into a seamless, user-friendly system for citizen crime reporting and police follow-up. Her ability to map out user journeys, write clear user stories, and manage development sprints kept the project moving with remarkable speed and quality. Anita's strategic insight and hands-on execution made Gateway Shield not just possible, but exceptional.",
+      author: "Ayo O.",
+      title: "Project Sponsor, Gateway Shield"
     }
   ];
 
