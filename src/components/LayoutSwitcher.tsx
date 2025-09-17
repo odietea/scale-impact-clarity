@@ -1,12 +1,34 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Layout, Grid, Minimize2 } from "lucide-react";
-import Index from "@/pages/Index";
+import Navigation from "@/components/Navigation";
+import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
+import SkillsSection from "@/components/SkillsSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import RolesSection from "@/components/RolesSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 import ModernLayout from "@/components/layouts/ModernLayout";
 import MinimalLayout from "@/components/layouts/MinimalLayout";
 
+const DefaultLayout = () => (
+  <div className="min-h-screen">
+    <Navigation />
+    <HeroSection />
+    <AboutSection />
+    <SkillsSection />
+    <ProjectsSection />
+    <RolesSection />
+    <TestimonialsSection />
+    <ContactSection />
+    <Footer />
+  </div>
+);
+
 const layouts = [
-  { id: "default", name: "Professional", icon: Layout, component: Index },
+  { id: "default", name: "Professional", icon: Layout, component: DefaultLayout },
   { id: "modern", name: "Modern", icon: Grid, component: ModernLayout },
   { id: "minimal", name: "Minimal", icon: Minimize2, component: MinimalLayout }
 ];
@@ -14,7 +36,7 @@ const layouts = [
 const LayoutSwitcher = () => {
   const [activeLayout, setActiveLayout] = useState("default");
 
-  const ActiveComponent = layouts.find(l => l.id === activeLayout)?.component || Index;
+  const ActiveComponent = layouts.find(l => l.id === activeLayout)?.component || DefaultLayout;
 
   return (
     <>
