@@ -45,6 +45,11 @@ const TestimonialsSection = () => {
       text: "Working with Anita on Gateway Shield was transformative. She brought structure and vision to a complex civic-tech platform, translating our big ideas into a seamless, user-friendly system for citizen crime reporting and police follow-up. Her ability to map out user journeys, write clear user stories, and manage development sprints kept the project moving with remarkable speed and quality. Anita's strategic insight and hands-on execution made Gateway Shield not just possible, but exceptional.",
       author: "Ayo O.",
       title: "Project Sponsor, Gateway Shield"
+    },
+    {
+      text: "Working closely with a lot of operators, I have come to appreciate execution above ideation. Thankfully Anita combines the best of both worlds. Anita works with a distinct focus on finality. She never starts what she'd not finish. If you ever need a project to be executed excellently with a detailed focus on customers, she is the right person.",
+      author: "Feranmi A.",
+      title: "Country Lead, Cenoa"
     }
   ];
 
