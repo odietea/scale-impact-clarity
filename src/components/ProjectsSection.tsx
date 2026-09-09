@@ -28,7 +28,7 @@ const ProjectsSection = () => {
       title: "Community Protection Platform",
       company: "Gateway Shield",
       linkUrl: "https://www.thegatewayshield.com/",
-      description: "Directed the build of a role-based civic-safety platform. Owned the PRDs, user flows, and UX writing across every screen for both sides: citizen reporting (web, mobile, IVR, anonymous submission) and the police command chain (triage, station assignment, SLA escalation, audit-logged closure) across 8 distinct user roles.",
+       description: "Directed the build of a role-based civic-safety platform. Owned the PRDs, user flows, lifecycle emails and UX writing across every screen for both sides: citizen reporting (web, mobile, IVR, anonymous submission) and the police command chain (triage, station assignment, SLA escalation, audit-logged closure) across 8 distinct user roles.",
       impact: "8 roles, SLA-driven case resolution",
       tags: ["Civic Tech", "Public Safety", "Role-Based Design", "GovTech", "0→1 Product", "SLA & Escalation Logic", "Accountability & Audit", "Multi-Channel Access"]
     },
