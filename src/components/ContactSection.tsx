@@ -3,7 +3,7 @@ import { Mail, Calendar, Linkedin, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   const handleEmailClick = () => {
-    window.location.href = "mailto:odieteanita@gmail.com";
+    window.location.href = "mailto:hello@anitaodiete.com";
   };
 
   const handleCalendlyClick = () => {
@@ -40,7 +40,7 @@ const ContactSection = () => {
                 className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground hover:text-primary"
               >
                 <Mail className="w-4 h-4 mr-2" />
-                odieteanita@gmail.com
+                hello@anitaodiete.com
               </Button>
             </div>
 
