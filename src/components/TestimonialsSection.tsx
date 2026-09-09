@@ -22,7 +22,7 @@ const TestimonialsSection = () => {
       title: "Product Designer"
     },
     {
-      text: "Anita's insights on ESG and sustainability are razor-sharp. I've had the pleasure of working with her on several opportunities, and what always strikes me is her range—she merges product thinking, policy knowledge, and business acumen effortlessly. Her ability to lead across disciplines is rare and refreshing.",
+      text: "Anita's insights on ESG and sustainability are razor-sharp. I've had the pleasure of working with her on several opportunities, and what always strikes me is her range. She merges product thinking, policy knowledge, and business acumen effortlessly. Her ability to lead across disciplines is rare and refreshing.",
       author: "Omotayo D.",
       title: "ESG Advisor, Afreximbank"
     },
