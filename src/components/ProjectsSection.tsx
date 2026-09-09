@@ -7,35 +7,35 @@ const ProjectsSection = () => {
   const productProjects = [
     {
       icon: <Bot className="w-8 h-8 text-primary" />,
-      title: "AI-Powered Support Bot",
-      company: "Flutterwave",
-      description: "Built and deployed a robust conversational AI bot on Intercom that automated over 150 internal workflows across verification, transaction, and account-related issues. The bot resolved 35% of support requests end-to-end, reducing first response time by 60%.",
-      impact: "35% automation, 60% faster response",
-      tags: ["AI/ML", "Process Automation", "Customer Experience"]
+      title: "Connected Wellness App",
+      company: "Bèbèdí",
+      description: "Joined at the earliest stage of a women's-health wearable and built the product operating system from the ground up from experience principles to PRDs, UX writing, onboarding logic, analytics events, and an AI-guardrail framework defining the line between insight and overreach. ",
+      impact: "Hardware concept → build-ready digital ecosystem",
+      tags: ["Hardware concept", "Build-Ready Digital Ecosystem", "FemTech"]
     },
     {
       icon: <Truck className="w-8 h-8 text-accent" />,
-      title: "B2B Food Tech Platform",
-      company: "Frostflow Foods",
-      description: "Led product development for a seafood e-commerce platform connecting hotels and restaurants to premium suppliers. Oversaw platform design, order management logic, payment flow, and automated reconciliation workflows that reduced manual errors by 80%.",
-      impact: "80% reduction in manual errors",
-      tags: ["B2B Platform", "Food Tech", "Supply Chain"]
+      title: "Crypto Investment Platform",
+      company: "Omora",
+      description: "Selected to lead product specifically for having a non-expert's relationship to crypto. Built a jargon-free, Naira-funded DCA investment platform for HNIs with AI sentiment-based auto-pause protection and maker-checker controls for corporate clients. Designed the full admin dashboard with 8 staff roles and scoped permissions, live provider-health monitoring, transaction monitoring, and compliance tooling.",
+      impact: "Jargon-free investing, 8-role operations system",
+      tags: ["Fintech", "AI/ML", "RegTech Compliance"]
     },
     {
       icon: <ShoppingBag className="w-8 h-8 text-secondary" />,
-      title: "Student Discount Platform",
-      company: "CampusDream",
-      description: "Built and launched a student-focused digital platform offering exclusive discounts across a verified network of 3,000+ partner merchants. Led product design, go-to-market strategy, and merchant acquisition operations.",
-      impact: "3,000+ merchant network",
-      tags: ["E-commerce", "Student Tech", "Marketplace"]
+      title: "Community Protection Platform",
+      company: "Gateway Shield",
+      description: "Directed the build of a role-based civic-safety platform. Owned the PRDs, user flows, and UX writing across every screen for both sides: citizen reporting (web, mobile, IVR, anonymous submission) and the police command chain (triage, station assignment, SLA escalation, audit-logged closure) across 8 distinct user roles.",
+      impact: "8 roles, SLA-driven case resolution",
+      tags: ["Civic Tech", "Public Safety", "Role-Based Design"]
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-accent" />,
-      title: "Crypto Investment App",
-      company: "Omora",
-      description: "Spearheaded the full build of Omora, a simplified AI-powered crypto investment platform for high-net-worth clients, with sentiment-based automations, DCA investing, whale tracking, USDT/Naira wallets, and an intuitive admin dashboard for compliance and oversight.",
-      impact: "AI-driven investment automation",
-      tags: ["Fintech", "AI/ML", "Investment Tech"]
+      title: "AI-Powered Support",
+      company: "Flutterwave",
+      description: "Built and deployed a conversational AI bot on Intercom that automated over 150 internal workflows across verification, transaction, and account-related issues. The bot resolved 35% of support requests end-to-end, reducing first response time by 60%.",
+      impact: "35% automation, 60% faster response",
+      tags: ["AI/ML", "Process Automation", "Customer Experience"]
     },
     {
       icon: <BarChart3 className="w-8 h-8 text-primary" />,
@@ -47,11 +47,11 @@ const ProjectsSection = () => {
     },
     {
       icon: <Shield className="w-8 h-8 text-secondary" />,
-      title: "Community Protection",
-      company: "Gateway Shield",
-      description: "Led the development of a civic-tech platform for citizens to log crime incidents. Designed police-side dashboards and resolution workflows with SLA escalation and audit trail features.",
-      impact: "Enhanced police accountability",
-      tags: ["Civic Tech", "Public Safety", "Transparency"]
+      title: "B2B Food Tech Platform ",
+      company: "Frostflow Foods",
+      description: "Led product development for an e-commerce platform connecting restaurants and other businesses to order directly from premium suppliers. Designed order management logic, payment flow, and automated reconciliation workflows that reduced manual errors by 80%.",
+      impact: "80% reduction in manual errors",
+      tags: ["B2B Platform", "FoodTech", "Supply Chain"]
     }
   ];
 
