@@ -118,40 +118,51 @@ const ProjectsSection = () => {
 
   const renderProjectGrid = (projects: typeof productProjects) => (
     <div className="grid lg:grid-cols-2 gap-8">
-      {projects.map((project, index) => (
-        <div key={index} className="bg-surface rounded-lg p-8 border border-border shadow-sm hover:shadow-md transition-all hover:border-accent/30">
-          <div className="flex items-start gap-4 mb-6">
-            <div className="p-3 bg-muted rounded-lg">
-              {project.icon}
-            </div>
-            <div className="flex-1">
-              <h3 className="text-xl font-semibold text-primary mb-1">
-                {project.title}
-              </h3>
-              <p className="text-secondary font-medium">{project.company}</p>
-            </div>
-          </div>
+      {projects.map((project, index) => {
+        const CardWrapper = project.linkUrl ? 'a' : 'div';
+        const cardProps = project.linkUrl
+          ? { href: project.linkUrl, target: '_blank', rel: 'noopener noreferrer' }
+          : {};
 
-          <p className="text-foreground leading-relaxed mb-4">
-            {project.description}
-          </p>
-
-          <div className="mb-4">
-            <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium">
-              <ExternalLink className="w-4 h-4" />
-              {project.impact}
+        return (
+          <CardWrapper
+            key={index}
+            {...cardProps}
+            className="bg-surface rounded-lg p-8 border border-border shadow-sm hover:shadow-md transition-all hover:border-accent/30 block"
+          >
+            <div className="flex items-start gap-4 mb-6">
+              <div className="p-3 bg-muted rounded-lg">
+                {project.icon}
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-semibold text-primary mb-1">
+                  {project.title}
+                </h3>
+                <p className="text-secondary font-medium">{project.company}</p>
+              </div>
             </div>
-          </div>
 
-          <div className="flex flex-wrap gap-2">
-            {project.tags.map((tag, tagIndex) => (
-              <Badge key={tagIndex} variant="secondary" className="text-xs">
-                {tag}
-              </Badge>
-            ))}
-          </div>
-        </div>
-      ))}
+            <p className="text-foreground leading-relaxed mb-4">
+              {project.description}
+            </p>
+
+            <div className="mb-4">
+              <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-3 py-1 rounded-full text-sm font-medium">
+                <ExternalLink className="w-4 h-4" />
+                {project.impact}
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {project.tags.map((tag, tagIndex) => (
+                <Badge key={tagIndex} variant="secondary" className="text-xs">
+                  {tag}
+                </Badge>
+              ))}
+            </div>
+          </CardWrapper>
+        );
+      })}
     </div>
   );
 
