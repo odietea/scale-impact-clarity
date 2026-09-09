@@ -109,7 +109,7 @@ const ProjectsSection = () => {
       title: "Innovation Hub",
       company: "Atunlo",
       description: "Designed and launched a circular economy accelerator to incubate scalable green solutions and prepare them for investment.",
-      impact: "5 startups incubated"
+      impact: "5 startups incubated",
       tags: ["Accelerator", "Green Tech", "Investment Readiness"]
     }
   ];
