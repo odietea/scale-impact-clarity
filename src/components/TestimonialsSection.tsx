@@ -7,7 +7,7 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      text: "Anita is an extraordinary thinker. She doesn't just build ideas—she transforms them into bankable, impactful solutions. From shaping circular economy proposals to helping me refine pitches and unlock new income streams, her support has been a game-changer. Anita brings unmatched clarity, empathy, and brilliance to every conversation. I count her as one of the most valuable collaborators I've had.",
+      text: "Anita is an extraordinary thinker. She doesn't just build ideas. She transforms them into bankable, impactful solutions. From shaping circular economy proposals to helping me refine pitches and unlock new income streams, her support has been a game changer. Anita brings unmatched clarity, empathy, and brilliance to every conversation. I count her as one of the most valuable collaborators I've had.",
       author: "Friday A.",
       title: "CEO, Agbe Nectar"
     },
