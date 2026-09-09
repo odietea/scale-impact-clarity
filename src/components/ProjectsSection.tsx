@@ -9,6 +9,7 @@ const ProjectsSection = () => {
       icon: <HeartPulse className="w-8 h-8 text-primary" />,
       title: "Connected Wellness App",
       company: "Bèbèdí",
+      linkUrl: "https://www.bebedi.com/",
       description: "Joined at the earliest stage of a women's-health wearable and built the product operating system from the ground up from experience principles to PRDs, UX writing, onboarding logic, analytics events, and an AI-guardrail framework defining the line between insight and overreach. ",
       impact: "Hardware concept → build-ready digital ecosystem",
       tags: ["Hardware concept", "Build-Ready Digital Ecosystem", "FemTech"]
