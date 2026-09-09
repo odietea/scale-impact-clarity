@@ -123,6 +123,7 @@ const TestimonialsSection = () => {
               <button
                 key={index}
                 onClick={() => setCurrentTestimonial(index)}
+                aria-label={`Go to testimonial ${index + 1}`}
                 className={`w-3 h-3 rounded-full transition-colors ${
                   index === currentTestimonial ? "bg-accent" : "bg-muted"
                 }`}
