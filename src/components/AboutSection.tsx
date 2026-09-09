@@ -10,7 +10,7 @@ const AboutSection = () => {
           </div>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-lg leading-relaxed text-foreground mb-8">I build the systems that make ambitious ideas actually work. As a product and program leader, I've shaped experiences for millions of users across Fintech, Civic Tech, Food Tech, and Consumer Tech. As a founder, I took a climate-tech company from an unproven idea to ₦760M+ in year-two revenue. Either way, the work is the same: turn ambiguity into an operating system from the PRDs to permission structures, CX frameworks and compliance guardrails that let a product, a team, or a company run safely once it's no longer small.</p>
+             <p className="text-lg leading-relaxed text-foreground mb-8">I build products in domains people find intimidating and make them usable by people who aren't experts. As a product and program leader, I've shaped experiences for millions of users across Fintech, Civic Tech, Food Tech, Health Tech and Consumer Tech. As a founder, I took a Climate Tech company from an unproven idea to ₦760M+ in year-two revenue. Either way, the work is the same: turn ambiguity into an operating system from the PRDs to permission structures, CX frameworks, and compliance guardrails that let a product, a team, or a company run safely once it's no longer small.</p>
 
             <div className="bg-surface rounded-lg p-8 border border-border shadow-sm">
               <h3 className="text-xl font-semibold text-primary mb-6">Why Work With Me</h3>
