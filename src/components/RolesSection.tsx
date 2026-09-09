@@ -5,7 +5,7 @@ const RolesSection = () => {
   const roles = [
     "Consulting (CX, Strategy, Sustainability)",
     "Chief Operating Officer (COO)",
-    "Director/VP, Program or Product Ops",
+    "VP/Director of Product",
     "Head of Customer Experience or Automation",
     "ESG/Sustainability Strategy Lead",
     "Managing Director (Social Enterprise / Climate-Tech)",
