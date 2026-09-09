@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       linkUrl: "https://www.linkedin.com/company/omora-market-lab/",
       description: "Selected to lead product specifically for having a non-expert's relationship to crypto. Built a jargon-free, Naira-funded DCA investment platform for HNIs with AI sentiment-based auto-pause protection and maker-checker controls for corporate clients. Designed the full admin dashboard with 8 staff roles and scoped permissions, live provider-health monitoring, transaction monitoring, and compliance tooling.",
       impact: "Jargon-free investing, 8-role operations system",
-      tags: ["Fintech", "AI/ML", "RegTech Compliance"]
+      tags: ["Fintech", "AI/ML", "RegTech Compliance", "Systems Reliability", "Role-Based Governance", "Investor Experience"]
     },
     {
       icon: <Shield className="w-8 h-8 text-secondary" />,
