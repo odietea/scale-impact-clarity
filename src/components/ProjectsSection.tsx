@@ -1,12 +1,12 @@
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Bot, Recycle, BarChart3, Shield, TrendingUp, Building, Truck, Users, ShoppingBag, Lightbulb, GraduationCap, Rocket } from "lucide-react";
+import { ExternalLink, Bot, Recycle, BarChart3, Shield, TrendingUp, Building, Truck, Users, HeartPulse, Lightbulb, GraduationCap, Rocket } from "lucide-react";
 import { useState } from "react";
 
 const ProjectsSection = () => {
   const [activeTab, setActiveTab] = useState<'product' | 'sustainability' | 'innovation'>('product');
   const productProjects = [
     {
-      icon: <Bot className="w-8 h-8 text-primary" />,
+      icon: <HeartPulse className="w-8 h-8 text-primary" />,
       title: "Connected Wellness App",
       company: "Bèbèdí",
       description: "Joined at the earliest stage of a women's-health wearable and built the product operating system from the ground up from experience principles to PRDs, UX writing, onboarding logic, analytics events, and an AI-guardrail framework defining the line between insight and overreach. ",
@@ -14,7 +14,7 @@ const ProjectsSection = () => {
       tags: ["Hardware concept", "Build-Ready Digital Ecosystem", "FemTech"]
     },
     {
-      icon: <Truck className="w-8 h-8 text-accent" />,
+      icon: <TrendingUp className="w-8 h-8 text-accent" />,
       title: "Crypto Investment Platform",
       company: "Omora",
       description: "Selected to lead product specifically for having a non-expert's relationship to crypto. Built a jargon-free, Naira-funded DCA investment platform for HNIs with AI sentiment-based auto-pause protection and maker-checker controls for corporate clients. Designed the full admin dashboard with 8 staff roles and scoped permissions, live provider-health monitoring, transaction monitoring, and compliance tooling.",
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
       tags: ["Fintech", "AI/ML", "RegTech Compliance"]
     },
     {
-      icon: <ShoppingBag className="w-8 h-8 text-secondary" />,
+      icon: <Shield className="w-8 h-8 text-secondary" />,
       title: "Community Protection Platform",
       company: "Gateway Shield",
       description: "Directed the build of a role-based civic-safety platform. Owned the PRDs, user flows, and UX writing across every screen for both sides: citizen reporting (web, mobile, IVR, anonymous submission) and the police command chain (triage, station assignment, SLA escalation, audit-logged closure) across 8 distinct user roles.",
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       tags: ["Civic Tech", "Public Safety", "Role-Based Design"]
     },
     {
-      icon: <TrendingUp className="w-8 h-8 text-accent" />,
+      icon: <Bot className="w-8 h-8 text-accent" />,
       title: "AI-Powered Support",
       company: "Flutterwave",
       description: "Built and deployed a conversational AI bot on Intercom that automated over 150 internal workflows across verification, transaction, and account-related issues. The bot resolved 35% of support requests end-to-end, reducing first response time by 60%.",
@@ -46,7 +46,7 @@ const ProjectsSection = () => {
       tags: ["Civic Tech", "Data Analytics", "Democracy"]
     },
     {
-      icon: <Shield className="w-8 h-8 text-secondary" />,
+      icon: <Truck className="w-8 h-8 text-secondary" />,
       title: "B2B Food Tech Platform ",
       company: "Frostflow Foods",
       description: "Led product development for an e-commerce platform connecting restaurants and other businesses to order directly from premium suppliers. Designed order management logic, payment flow, and automated reconciliation workflows that reduced manual errors by 80%.",
