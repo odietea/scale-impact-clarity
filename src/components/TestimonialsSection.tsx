@@ -98,6 +98,7 @@ const TestimonialsSection = () => {
                     variant="outline"
                     size="sm"
                     onClick={prevTestimonial}
+                    aria-label="Previous testimonial"
                     className="border-secondary hover:bg-secondary hover:text-secondary-foreground"
                   >
                     <ChevronLeft className="w-4 h-4" />
@@ -106,6 +107,7 @@ const TestimonialsSection = () => {
                     variant="outline"
                     size="sm"
                     onClick={nextTestimonial}
+                    aria-label="Next testimonial"
                     className="border-secondary hover:bg-secondary hover:text-secondary-foreground"
                   >
                     <ChevronRight className="w-4 h-4" />
