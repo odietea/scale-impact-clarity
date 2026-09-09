@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
       title: "Product Manager, Flutterwave"
     },
     {
-      text: "Anita is the kind of leader that simplifies the complex and motivates you to execute with confidence. Her sharp eye for process improvement, her ability to drive alignment across teams, and her commitment to CX excellence were key to everything we achieved. She's an impactful force—calm, smart, and inspiring.",
+      text: "Anita is the kind of leader that simplifies the complex and motivates you to execute with confidence. Her sharp eye for process improvement, her ability to drive alignment across teams, and her commitment to CX excellence were key to everything we achieved. She's an impactful force; calm, smart, and inspiring.",
       author: "Timothy T-A.",
       title: "CX Analyst, Flutterwave"
     },
