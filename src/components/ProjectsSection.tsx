@@ -65,7 +65,7 @@ const ProjectsSection = () => {
       title: "Lagos Waste Bazaar",
       company: "Lagos State OCCCE",
       description: "Planned and executed operations for Lagos State's first Waste Bazaar in Badagry. The event incentivized sustainable behavior by offering cash, food, and health services to over 500 residents in exchange for recyclables.",
-       impact: "500+ residents engaged\n\n",
+       impact: "$350K projected annual savings\n",
       tags: ["Civic Engagement", "Sustainability", "Event Operations"]
     },
     {
@@ -73,7 +73,7 @@ const ProjectsSection = () => {
       title: "Circular Economy Blueprint",
       company: "Edo State Government",
       description: "Designed a scalable Recycling Village model for Edo State, integrating waste-to-energy, green manufacturing, and ESG-aligned governance. Developed the full business case, PPP model, and investment roadmap for green jobs and carbon reduction.",
-       impact: "Full state circular economy model\n\n",
+       impact: "6,500+ trained across 6 states",
       tags: ["Government", "ESG", "Strategic Planning"]
     },
     {
@@ -109,7 +109,7 @@ const ProjectsSection = () => {
       title: "Innovation Hub",
       company: "Atunlo",
       description: "Designed and launched a circular economy accelerator to incubate scalable green solutions and prepare them for investment.",
-      impact: "Green solutions accelerator",
+      impact: "5 startups incubated"
       tags: ["Accelerator", "Green Tech", "Investment Readiness"]
     }
   ];
