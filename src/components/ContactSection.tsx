@@ -24,7 +24,7 @@ const ContactSection = () => {
           <div className="w-16 h-1 bg-accent mx-auto mb-8"></div>
           
           <p className="text-xl leading-relaxed mb-12 text-primary-foreground/90 max-w-2xl mx-auto">
-            Whether you're scaling operations, implementing ESG initiatives, or building customer-centric systems, I'd love to explore how we can work together.
+            Whether you're building a product, scaling operations, or designing for climate impact, I'd love to explore how we can work together.
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">

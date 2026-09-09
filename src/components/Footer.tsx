@@ -3,7 +3,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-4 md:mb-0">
-            <p className="text-sm text-primary-foreground/80">© 2024 Anita Odiete. Building systems that scale impact.</p>
+            <p className="text-sm text-primary-foreground/80">© 2026 Anita Odiete. Building systems that scale impact.</p>
           </div>
           
           <div className="flex items-center gap-6 text-sm text-primary-foreground/80">
