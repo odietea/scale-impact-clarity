@@ -80,6 +80,7 @@ const ProjectsSection = () => {
       icon: <Recycle className="w-8 h-8 text-accent" />,
        title: "Circular Economy Company",
       company: "Atunlo",
+      linkUrl: "https://www.atunlotech.com/",
        description: "Co-founded and led as CEO, taking a circular-economy idea to a profitable waste-recovery and climate-tech company. Raised $600K+ in funding and grew revenue from ₦75M to ₦760M+ by year two. Built a waste-to-value ecosystem across 6 states with 200M+ bottles recycled, 10,000+ green jobs created, and ₦900M+ disbursed to individuals in exchange for their waste, including a zero-interest loan program repayable with plastic.",
        impact: "$600K raised, ₦75M → ₦760M+ revenue\n\n",
        tags: ["Climate Tech", "Circular Economy", "Program Management"]
