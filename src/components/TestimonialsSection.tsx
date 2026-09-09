@@ -98,6 +98,7 @@ const TestimonialsSection = () => {
                     variant="outline"
                     size="sm"
                     onClick={prevTestimonial}
+                    aria-label="Previous testimonial"
                     className="border-secondary hover:bg-secondary hover:text-secondary-foreground"
                   >
                     <ChevronLeft className="w-4 h-4" />
@@ -106,6 +107,7 @@ const TestimonialsSection = () => {
                     variant="outline"
                     size="sm"
                     onClick={nextTestimonial}
+                    aria-label="Next testimonial"
                     className="border-secondary hover:bg-secondary hover:text-secondary-foreground"
                   >
                     <ChevronRight className="w-4 h-4" />
@@ -121,6 +123,7 @@ const TestimonialsSection = () => {
               <button
                 key={index}
                 onClick={() => setCurrentTestimonial(index)}
+                aria-label={`Go to testimonial ${index + 1}`}
                 className={`w-3 h-3 rounded-full transition-colors ${
                   index === currentTestimonial ? "bg-accent" : "bg-muted"
                 }`}
