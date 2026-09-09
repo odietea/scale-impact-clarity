@@ -101,7 +101,7 @@ const ProjectsSection = () => {
       title: "Green Club Network",
       company: "Atunlo",
       description: "Established sustainability clubs for kids and youths across 6 states, combining monthly training, practical eco-projects, waste-to-education and educational scholarships.",
-      impact: "Multi-state youth sustainability network",
+      impact: "6,500+ trained",
       tags: ["Education", "Youth Development", "Sustainability"]
     },
     {
