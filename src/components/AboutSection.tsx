@@ -10,7 +10,7 @@ const AboutSection = () => {
           </div>
 
           <div className="prose prose-lg max-w-none">
-            <p className="text-lg leading-relaxed text-foreground mb-8">Tired of complex problems with no clear solutions? I design and build systems that deliver real, measurable impact. With over a decade of experience in Fintech, Civic Tech, Food Tech, Consumer Tech, Startup Ecosystem and Climate Tech, I thrive in the "messy middle", where challenges are complex and expectations are high. I specialize in turning ambiguity into actionable strategies, leading CX transformations, automating workflows, and building products that empower thousands.</p>
+            <p className="text-lg leading-relaxed text-foreground mb-8">I build the systems that make ambitious ideas actually work. As a product and program leader, I've shaped experiences for millions of users across Fintech, Civic Tech, Food Tech, and Consumer Tech. As a founder, I took a climate-tech company from an unproven idea to ₦760M+ in year-two revenue. Either way, the work is the same: turn ambiguity into an operating system from the PRDs to permission structures, CX frameworks and compliance guardrails that let a product, a team, or a company run safely once it's no longer small.</p>
 
             <div className="bg-surface rounded-lg p-8 border border-border shadow-sm">
               <h3 className="text-xl font-semibold text-primary mb-6">Why Work With Me</h3>
@@ -18,23 +18,23 @@ const AboutSection = () => {
                 
                 <div className="space-y-4">
                   <p className="leading-relaxed">
-                    <strong className="text-secondary">Turn Chaos into Clarity:</strong> I'm adept at cutting through complexity to define clear, effective strategies where others see only ambiguity.
+                    <strong className="text-secondary">Own Outcomes, Not Just Deliverables:</strong> As Founder & CEO of Atunlo, I owned the P&L and grew revenue from ₦75M to ₦760M+ in year two. At Flutterwave, I owned CX outcomes (churn, resolution time, trust after outages) across 34+ markets and 1M+ users.
                   </p>
                   
                   <p className="leading-relaxed">
-                    <strong className="text-secondary">Drive Measurable Transformation:</strong> My expertise lies in delivering real results—automating critical processes, leading impactful CX transformations, and launching products that truly make a difference.
+                    <strong className="text-secondary">Turn Complexity into Clarity:</strong> From a hormone-tracking wearable to a crypto investment platform, I design for the person encountering it for the first time because if I can understand it, they will too.
                   </p>
                   
                   <p className="leading-relaxed">
-                    <strong className="text-secondary">Build Future-Proof Systems:</strong> I design with a holistic, long-term perspective, ensuring solutions are robust, scalable, and adaptable to future needs.
+                    <strong className="text-secondary">Build Future-Proof Systems:</strong> Role-based permissions, SLA escalation logic, compliance guardrails, performance dashboards. I build the infrastructure that makes systems trustworthy at scale.
                   </p>
                   
                   <p className="leading-relaxed">
-                    <strong className="text-secondary">Lead with Customer-Centricity:</strong> With every project, I embed deep user understanding and empathy to create solutions that genuinely resonate and get adopted.
+                    <strong className="text-secondary">Move From Idea to Connected Teams:</strong> I've built teams from the founder's seat at Atunlo and from the product leader's seat at Omora and Gateway Shield.
                   </p>
                   
                   <p className="leading-relaxed">
-                    <strong className="text-secondary">Go Beyond the Brief:</strong> My commitment is to consistently over-deliver, bringing a proactive, results-oriented approach to every challenge, no matter how high the stakes.
+                    <strong className="text-secondary">Go Beyond the Brief:</strong> When an experience brief wasn't enough for a team to build from, I wrote the PRDs myself. When a beta process didn't exist, I built the framework. I notice what's missing and fix it without waiting to be asked.
                   </p>
                 </div>
               </div>

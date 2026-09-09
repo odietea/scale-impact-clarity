@@ -15,14 +15,11 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-primary leading-tight">
-                Building Systems That{" "}
-                <span className="text-secondary">Scale Impact</span>,{" "}
-                <span className="text-accent">Empower People</span>, and{" "}
-                <span className="text-secondary">Streamline Operations</span>.
+                Building the Systems Behind Products, Companies, and Public Impact From Zero to Scale
               </h1>
               
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                Program & Product Leader | CX Automation Expert | Sustainability Advocate | Operator at Scale
+                Founder & CEO | Product & Program Leader | CX Automation Expert | Sustainability Operator
               </p>
             </div>
 
