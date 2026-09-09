@@ -4,38 +4,38 @@ const SkillsSection = () => {
   const skillCategories = [
     {
       icon: <Target className="w-8 h-8 text-primary" />,
-      title: "Strategy & Execution",
+      title: "Product & Systems Design",
       skills: [
-        "Program & Project Leadership",
-        "Cross-functional Teaming",
-        "Operational Optimization",
-        "Business Process Reengineering",
-        "Agile Project Management",
-        "Stakeholder Prioritization"
+        "0→1 Product Development (PRDs, User Flows, UX Writing)",
+        "Role-Based Permission & Governance Design",
+        "SLA, Escalation & Compliance Logic",
+        "Provider Monitoring & API Reliability",
+        "Analytics Event Taxonomies",
+        "AI Guardrails & Sentiment Systems"
       ]
     },
     {
       icon: <Cog className="w-8 h-8 text-secondary" />,
-      title: "CX & Digital Ops",
+      title: "CX & Operations at Scale",
       skills: [
-        "Process Automation (Internal & CX)",
-        "Conversational AI (Intercom)",
-        "API-Driven Support Flows",
-        "Product Onboarding Flows",
-        "Internal Knowledge Systems",
-        "Jira, Trello, Google Workspace"
+        "CX Transformation & Service Standards",
+        "Support Automation & AI-Driven Resolution",
+        "Lifecycle Communications & Onboarding",
+        "Operational Playbooks & Escalation Frameworks",
+        "Cross-Functional Program Delivery",
+        "Large-Scale Event & Conference Operations"
       ]
     },
     {
       icon: <Leaf className="w-8 h-8 text-accent" />,
       title: "Sustainability & Impact",
       skills: [
-        "ESG Strategy & Reporting",
-        "Circular Economy Program Design & Implementation",
-        "Decarbonization Programs",
-        "Green Job Creation",
-        "Carbon & Plastic Credit Models",
-        "Business Cases for Circular Economy Hubs"
+        "Circular Economy Business Models",
+        "ESG Strategy & Impact Measurement",
+        "Green Finance & Incentive Design",
+        "Corporate Decarbonisation Programs",
+        "Government & Institutional Partnerships",
+        "Carbon & Plastic Credit Models"
       ]
     }
   ];
@@ -49,7 +49,7 @@ const SkillsSection = () => {
           </h2>
           <div className="w-16 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive toolkit for building impactful systems across strategy, operations, and sustainability
+             What I bring to the table across product, operations, and sustainability.
           </p>
         </div>
 
