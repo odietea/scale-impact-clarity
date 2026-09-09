@@ -17,7 +17,7 @@ const TestimonialsSection = () => {
       title: "CEO, Frostflow"
     },
     {
-      text: "A year on, as of this morning at 08:24 AM on September 15, 2025, what began as a dynamic partnership has blossomed into a genuine friendship—swapping life updates amid the deadlines. Anita, you are the collaborator who elevates everyone. Your ability to navigate complex projects with ease is unmatched. If you're building something meaningful, partner with her. She's not just exceptional; she's essential. Proud to call you a friend and even prouder to recommend you without hesitation.",
+      text: "A year on, as of this morning at 08:24 AM on September 15, 2025, what began as a dynamic partnership has blossomed into a genuine friendship swapping life updates amid the deadlines. Anita, you are the collaborator who elevates everyone. Your ability to navigate complex projects with ease is unmatched. If you're building something meaningful, partner with her. She's not just exceptional; she's essential. Proud to call you a friend and even prouder to recommend you without hesitation.",
       author: "Yinka A.",
       title: "Product Designer"
     },
