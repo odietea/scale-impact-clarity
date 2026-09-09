@@ -36,6 +36,7 @@ const ProjectsSection = () => {
       icon: <Bot className="w-8 h-8 text-accent" />,
       title: "AI-Powered Support",
       company: "Flutterwave",
+      linkUrl: "https://flutterwave.com/ng/",
       description: "Built and deployed a conversational AI bot on Intercom that automated over 150 internal workflows across verification, transaction, and account-related issues. The bot resolved 35% of support requests end-to-end, reducing first response time by 60%.",
       impact: "35% automation, 60% faster response",
       tags: ["AI/ML", "Process Automation", "Customer Experience"]
