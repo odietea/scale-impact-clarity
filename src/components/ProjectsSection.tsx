@@ -16,7 +16,7 @@ const ProjectsSection = () => {
     {
       icon: <Truck className="w-8 h-8 text-accent" />,
       title: "B2B Food Tech Platform",
-      company: "Frostflow",
+      company: "Frostflow Foods",
       description: "Led product development for a seafood e-commerce platform connecting hotels and restaurants to premium suppliers. Oversaw platform design, order management logic, payment flow, and automated reconciliation workflows that reduced manual errors by 80%.",
       impact: "80% reduction in manual errors",
       tags: ["B2B Platform", "Food Tech", "Supply Chain"]
@@ -31,24 +31,24 @@ const ProjectsSection = () => {
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-accent" />,
-      title: "Omora",
-      company: "Fintech",
+      title: "Crypto Investment App",
+      company: "Omora",
       description: "Spearheaded the full build of Omora, a simplified AI-powered crypto investment platform for high-net-worth clients, with sentiment-based automations, DCA investing, whale tracking, USDT/Naira wallets, and an intuitive admin dashboard for compliance and oversight.",
       impact: "AI-driven investment automation",
       tags: ["Fintech", "AI/ML", "Investment Tech"]
     },
     {
       icon: <BarChart3 className="w-8 h-8 text-primary" />,
-      title: "Hernalytics",
-      company: "Civic Tech",
+      title: "Election Monitoring",
+      company: "Hernalytics",
       description: "Built a real-time election performance tracker to monitor participation, demographics, and winning party analytics for civic engagement.",
       impact: "Real-time election monitoring",
       tags: ["Civic Tech", "Data Analytics", "Democracy"]
     },
     {
       icon: <Shield className="w-8 h-8 text-secondary" />,
-      title: "Gateway Shield",
-      company: "Civic Tech",
+      title: "Community Protection",
+      company: "Gateway Shield",
       description: "Led the development of a civic-tech platform for citizens to log crime incidents. Designed police-side dashboards and resolution workflows with SLA escalation and audit trail features.",
       impact: "Enhanced police accountability",
       tags: ["Civic Tech", "Public Safety", "Transparency"]
