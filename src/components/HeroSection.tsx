@@ -15,7 +15,11 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-primary leading-tight">
-                Building the Systems Behind Products, Companies, and Public Impact From Zero to Scale
+                Building the Systems Behind{" "}
+                <span className="text-secondary">Products</span>,{" "}
+                <span className="text-accent">Companies</span>, and{" "}
+                <span className="text-secondary">Public Impact</span>{" "}
+                <span className="text-accent">From Zero to Scale</span>
               </h1>
               
               <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed">
