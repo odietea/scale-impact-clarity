@@ -21,7 +21,7 @@ const ProjectsSection = () => {
       linkUrl: "https://www.linkedin.com/company/omora-market-lab/",
       description: "Selected to lead product specifically for having a non-expert's relationship to crypto. Built a jargon-free, Naira-funded DCA investment platform for HNIs with AI sentiment-based auto-pause protection and maker-checker controls for corporate clients. Designed the full admin dashboard with 8 staff roles and scoped permissions, live provider-health monitoring, transaction monitoring, and compliance tooling.",
       impact: "Jargon-free investing, 8-role operations system",
-      tags: ["Fintech", "AI/ML", "RegTech Compliance", "Systems Reliability", "Role-Based Governance", "Investor Experience"]
+      tags: ["Fintech", "AI/ML", "RegTech Compliance", "Systems Reliability", "Role-Based Governance", "Investor Experience", "UX Writing"]
     },
     {
       icon: <Shield className="w-8 h-8 text-secondary" />,
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       linkUrl: "https://www.thegatewayshield.com/",
        description: "Directed the build of a role-based civic-safety platform. Owned the PRDs, user flows, lifecycle emails and UX writing across every screen for both sides: citizen reporting (web, mobile, IVR, anonymous submission) and the police command chain (triage, station assignment, SLA escalation, audit-logged closure) across 8 distinct user roles.",
       impact: "8 roles, SLA-driven case resolution",
-      tags: ["Civic Tech", "Public Safety", "Role-Based Design", "GovTech", "0→1 Product", "SLA & Escalation Logic", "Accountability & Audit", "Multi-Channel Access"]
+      tags: ["Civic Tech", "Public Safety", "Role-Based Design", "GovTech", "0→1 Product", "SLA & Escalation Logic", "Accountability & Audit", "Multi-Channel Access", "UX Writing"]
     },
     {
       icon: <Bot className="w-8 h-8 text-accent" />,
