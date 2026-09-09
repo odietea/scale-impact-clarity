@@ -7,7 +7,7 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center gap-6 text-sm text-primary-foreground/80">
-            <a href="mailto:odieteanita@gmail.com" className="hover:text-accent transition-colors">
+            <a href="mailto:hello@anitaodiete.com" className="hover:text-accent transition-colors">
               Email
             </a>
             <a href="https://calendly.com/odieteanita/30min" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">
