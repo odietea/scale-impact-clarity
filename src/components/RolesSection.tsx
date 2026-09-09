@@ -9,7 +9,7 @@ const RolesSection = () => {
     "Head of Customer Experience or Automation",
     "ESG/Sustainability Strategy Lead",
     "Managing Director (Social Enterprise / Climate-Tech)",
-    "Innovation Lab or Accelerator Director",
+    "Innovation Lab Director",
     "Strategic Advisor / Board Member"
   ];
 
@@ -27,7 +27,7 @@ const RolesSection = () => {
           <div className="w-16 h-1 bg-accent mx-auto mb-8"></div>
           
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Ready to bring systems thinking and operational excellence to your organization
+            Ready to lead at the intersection of product, operations, and impact.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
